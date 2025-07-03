@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: radial-gradient(circle at center, #333, #111);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background: white;
+  border-radius: 20px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+  width: 400px;
+}
+
+.card-topo img {
+  width: 100%;
+  display: block;
+}
+
+.card-form {
+  padding: 20px;
+}
+
+.card-form label {
+  font-weight: bold;
+  display: block;
+  margin-top: 10px;
+}
+
+.card-form input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+.card-form button {
+  width: 30%; /* ou um valor fixo como 150px */
+  margin: 20px auto 0 auto; /* centraliza horizontalmente */
+  padding: 12px;
+  background: linear-gradient(to right, orange, red);
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  
+  /* Animação de clique */
+  transition: transform 0.1s ease, box-shadow 0.2s ease;
+}
+
+.card-form button:active {
+  transform: scale(0.95);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3) inset;
+}

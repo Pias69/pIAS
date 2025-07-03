@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ministério da Educação</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    /* Cabeçalho superior gov.br */
+    .topbar {
+      display: flex;
+      align-items: center;
+      background-color: #fff;
+      border-bottom: 1px solid #ccc;
+      padding: 10px 20px;
+      font-size: 14px;
+      color: #333;
+    }
+
+    .topbar img {
+      height: 70px;
+      margin-right: 10px;
+    }
+
+    .topbar .gov-info {
+      font-weight: bold;
+      margin-right: auto;
+    }
+
+    .topbar a {
+      margin-left: 20px;
+      text-decoration: none;
+      color: blue;
+    }
+
+    .topbar a:hover {
+      text-decoration: underline;
+    }
+
+    /* Linha inferior com ministério e busca */
+    .header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 15px 20px;
+      background-color: #fff;
+      box-shadow: 0px 1px 3px rgba(0,0,0,0.1);
+    }
+
+    .header .menu-icon {
+      font-size: 20px;
+      margin-right: 10px;
+      color: #004080;
+    }
+
+    .header .title {
+      font-size: 18px;
+      font-weight: bold;
+      display: flex;
+      align-items: center;
+      color: #000;
+    }
+
+    .search-bar {
+      display: flex;
+      align-items: center;
+      position: relative;
+    }
+
+    .search-bar input {
+      padding: 8px 35px 8px 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 14px;
+      width: 200px;
+      font-style: italic;
+      color: #555;
+    }
+
+    .search-bar .fa-microphone, .search-bar .fa-search {
+      position: absolute;
+      right: 10px;
+      color: #007BFF;
+      cursor: pointer;
+    }
+
+    .search-bar .fa-microphone {
+      right: 35px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Topbar gov.br -->
+  <div class="topbar">
+    <img src="govnetbr.png" alt="gov.br logo">
+    <a href="#">Órgão do Governo</a>
+    <a href="#">Acesso à Informação</a>
+    <a href="#">Legislação</a>
+    <a href="#">Acessibilidade</a>
+    <i class="fas fa-adjust" style="margin-left: 20px; cursor: pointer;"></i>
+    <i class="fas fa-th-large" style="margin-left: 15px; cursor: pointer;"></i>
+    <i class="fas fa-user-circle" style="margin-left: 15px; cursor: pointer;"></i>
+  </div>
+
+  <!-- Linha abaixo com ministério e busca -->
+  <div class="header">
+    <div class="title">
+      <i class="fas fa-bars menu-icon"></i>
+      Ministério da Educação
+    </div>
+    <div class="search-bar">
+      <input type="text" placeholder="O que você procura?">
+      <i class="fas fa-microphone"></i>
+      <i class="fas fa-search" style="right: 10px;"></i>
+    </div>
+  </div>
+
+  <div style="padding: 40px; text-align: center;">
+    
+  </div>
+
+</body>
+</html>
